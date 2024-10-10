@@ -1,0 +1,136 @@
+/* .chat-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+  }
+
+  .bot {
+    align-self: flex-start;
+    background-color: #0ca6ed;
+  }
+
+  .user {
+    align-self: flex-end;
+    background-color: #3480b9;
+  }
+
+  .input-box {
+    display: flex;
+  }
+
+  .input-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .input-box button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+
+  .chat-container {
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 10px;
+    scrollbar-width: thin;
+}
+
+.message {
+    padding: 12px 15px;
+    border-radius: 20px;
+    max-width: 80%;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bot {
+    align-self: flex-start;
+    background-color: #f0f4ff;
+    color: #333;
+    border: 1px solid #e0e4ff;
+}
+
+.user {
+    align-self: flex-end;
+    background-color: #d1eaff;
+    color: #003366;
+    border: 1px solid #c0d9ff;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    background-color: #f4b9b9;
+}
+
+.input-box input:focus {
+    border-color: #4a90e2;
+    background-color: #c92020;
+}
+
+.input-box button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-box button:hover {
+    background-color: #357ab8;
+}
